@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cats in space</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>Cat Lovers <span data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+			<h1>Cat is love Cat is life</h1>
+
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/iphone.png" alt="iPhone" />
+						<div class="preview">
+							<img src="images/mcdo-cat.jpg" alt="iPhone app preview" />
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>McDo Cat</span> My cat is a good boy</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/ipad.png" alt="iPad Mini" />
+						<div class="preview">
+							<img src="images/sneaky.jpg" alt="iPad Mini app preview" />
+							<div class="zoomer__area zoomer__area--size-4"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Sneaky bois</span> Find the sneaky boi</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/macbook.png" alt="MacBook" />
+						<div class="preview">
+							<img src="images/glass.jpg" alt="MacBook app preview" />
+							<div class="zoomer__area zoomer__area--size-3"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Good Boy</span> $WAGG</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/imac.png" alt="iMac" />
+						<div class="preview">
+							<img src="images/fluffy.jpg" alt="iMac app preview" />
+							<div class="zoomer__area zoomer__area--size-5"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The bad boi</span> He attack</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/apple-watch.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<img src="images/jump.jpg" alt="Apple Watch app preview" />
+							<div class="zoomer__area zoomer__area--size-1"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>Jumpin' cat</span> Watch out for the landing</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/mcdokat.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>The McDo Cat</h2>
+					<h3>Watch out he will eat all your borgars</h3>
+					<p>" May i have some borgars brother ?" </p>
+					<p><a href="https://pecamozzi.com">Learn how to defend facing a McDo cat &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/catnip.png" alt="iPad Mini Content" />
+				<div class="content__item-inner">
+					<h2>The Sneaky Boi</h2>
+					<h3>How to hide yourself at every time</h3>
+					<p>Use the environment at your advantage ! Become a ninja master requires a lot of practice but it's necessary to be a sneaky boi. </p>
+					<p><a href="https://www.apple.com/ipad-mini-3/performance/">Learn how to become the sneakiest boi ever &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/catsinspace.gif" alt="MacBook Content" />
+				<div class="content__item-inner">
+					<h2>How to be a good boy</h2>
+					<h3>Be a good boy at every time</h3>
+					<p>All you have to do is when you see your master, run and jump on him, give him a kiss and *MEOW* for no reason.</p>
+					<p><a href="#cat4">How to be a bad boy &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/deadcat.jpg" alt="iMac Content" />
+				<div class="content__item-inner" id="cat4">
+					<h2>The Bad Boy</h2>
+					<h3>All cats are not good</h3>
+					<p>Some of them represent the worst form of cruelty.
+					The feel no regret and no pain. Watch your back hooman ... they may be behind you, ready to achieve their plan.</p>
+					<p><a href="https://www.apple.com/imac/built-in-apps/">Learn how to do a trial against a cat &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/acrocat.jpg" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>The Acrobaticat</h2>
+					<h3>He always land on his feets</h3>
+					<p>The Acrobaticat stays an unresolved problem for scientists ... how does he always land on his feets, even if you throw it from his back ? It's the same problem with the toast that always land on the buttered side ...
+				  And so, what would happened if we put together a cat and a toast ... wich one would touch the floor first ? </p>
+					<p><a href="https://www.youtube.com/watch?v=Z8yW5cyXXRc">Watch how scientists put together a cat and a toast &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
